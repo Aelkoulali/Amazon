@@ -1,5 +1,5 @@
 # 🗂️ Amazon 🛍️📦 
 ## ➡️ Key Concepts :
-## ✅ Amazon clone Project
+## ✅ Amazon Clone Project
 ## ✅ JavaScript + HTML + CSS
 ## ✅ Jasmin Testing Framework
