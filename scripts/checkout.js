@@ -14,6 +14,8 @@ cart.forEach((cartItem) => {
     }
   });
 
+ cartSummaryHTML +=
+
   `
   <div class="cart-item-container">
     <div class="delivery-date">
@@ -84,3 +86,5 @@ cart.forEach((cartItem) => {
   </div>
   `;
 });
+
+document.querySelector(".js-order-summary").innerHTML = cartSummaryHTML;
