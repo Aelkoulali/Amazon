@@ -19,7 +19,7 @@ cart.forEach((cartItem) => {
     <div class="delivery-date">
     Delivery date: Tuesday, June 21
     </div>
-            <div class="cart-item-details-grid">
+          <div class="cart-item-details-grid">
             <img class="product-image" src="${matchingProduct.image}">
 
             <div class="cart-item-details">
