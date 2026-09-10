@@ -6,7 +6,8 @@ import { formatCurrency } from "./utils/money.js";
 let productsHTML = "";
 
 products.forEach((product) => {
-  productsHTML += `
+  productsHTML += 
+  `
    <div class="product-container">
         <div class="product-image-container">
           <img class="product-image" src="${product.image}">
