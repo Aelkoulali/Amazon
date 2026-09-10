@@ -16,11 +16,10 @@ cart.forEach((cartItem) => {
 
   `
   <div class="cart-item-container">
-          <div class="delivery-date">
-            Delivery date: Tuesday, June 21
-          </div>
-
-          <div class="cart-item-details-grid">
+    <div class="delivery-date">
+    Delivery date: Tuesday, June 21
+    </div>
+            <div class="cart-item-details-grid">
             <img class="product-image" src="${matchingProduct.image}">
 
             <div class="cart-item-details">
@@ -78,10 +77,10 @@ cart.forEach((cartItem) => {
                   <div class="delivery-option-price">
                     $9.99 - Shipping
                   </div>
-                </div>
+               </div>
               </div>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
   `;
 });
