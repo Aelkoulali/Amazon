@@ -4,7 +4,6 @@ import { products } from "../data/products.js";
 let cartSummaryHTML = "";
 
 cart.forEach((cartItem) => {
-
   const productId = cartItem.productId;
 
   let matchingProduct;
@@ -12,11 +11,9 @@ cart.forEach((cartItem) => {
   products.forEach((product) => {
     if (productId === product.id) {
       matchingProduct = product;
-    } 
-    
-    });
-    
-    
+    }
+  });
+
   `
   <div class="cart-item-container">
           <div class="delivery-date">
